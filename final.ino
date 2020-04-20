@@ -176,6 +176,8 @@ void modemanual(){
   server.on("/timer/two", timertwo);
   server.on("/timer/three",timerthree);
   server.on("/timer/four",timerfour);
+  server.on("/temp",temperature_disp);
+
   //add manual control buttons
 }
 
