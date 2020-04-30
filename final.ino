@@ -4,16 +4,18 @@
 #include <ESP8266mDNS.h>
 #include <string>
 
-#define D0 1                                         //Assign pin numbers
-#define D1 2                                         //Assign pin numbers
-#define D2 3                                         //Assign pin numbers
-#define D3 4                                         //Assign pin numbers
-#define D4 5                                         //Assign pin numbers
-#define D5 6                                         //Assign pin numbers
-#define D6 7                                         //Assign pin numbers
-#define D7 8                                         //Assign pin numbers
-#define D8 9                                         //Assign pin numbers
-#define D9 10                                         //Assign pin numbers
+#define TCP_MSS 1460
+
+#define D0 16                                         //Assign pin numbers
+#define D1 5                                         //Assign pin numbers
+#define D2 4                                         //Assign pin numbers
+#define D3 0                                         //Assign pin numbers
+#define D4 2                                         //Assign pin numbers
+#define D5 14                                         //Assign pin numbers
+#define D6 12                                         //Assign pin numbers
+#define D7 13                                         //Assign pin numbers
+#define D8 15                                         //Assign pin numbers
+//#define D9 10                                         //Assign pin numbers
 
 
 ////including 4x4 keypad
